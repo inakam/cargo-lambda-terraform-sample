@@ -1,6 +1,6 @@
 # rust-lambda
 
-Rust言語でAWS Lambdaを書くための簡単なテンプレートです。
+Terraformを用いてRust言語でAWS Lambdaをデプロイするための簡単なテンプレートです。
 
 # 使い方
 
