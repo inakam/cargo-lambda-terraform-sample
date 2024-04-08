@@ -32,7 +32,7 @@ resource "aws_iam_role_policy" "lambda_access_policy" {
       "Action": [
         "logs:CreateLogStream",
         "logs:CreateLogGroup",
-        "logs:PutLogEvents",
+        "logs:PutLogEvents"
       ],
       "Resource": "*"
     }
