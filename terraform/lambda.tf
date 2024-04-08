@@ -1,5 +1,5 @@
 module "api_lambda" {
-  source = "./modules/rust_lambda_module"
+  source = "./modules/lambda_rust_module"
 
   function_name = "${var.name}-api"
   role          = aws_iam_role.lambda_iam_role.arn
@@ -12,4 +12,3 @@ module "api_lambda" {
     RUST_BACKTRACE            = 1
   }
 }
-
